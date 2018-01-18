@@ -1,0 +1,27 @@
+{
+  "name": "reparam",
+  "version": "1.0.0",
+  "description": "Mini library to pass along a param to another page when a link is clicked",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertofrega/reparam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertofrega/reparam/issues"
+  },
+  "homepage": "https://github.com/robertofrega/reparam#readme",
+  "dependencies": {
+    "codeceptjs-puppeteer": "^1.1.0",
+    "standard": "^10.0.3"
+  }
+}

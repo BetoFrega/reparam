@@ -1,0 +1,17 @@
+{
+  "tests": "./tests/*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "http://localhost:8080",
+      "show": true
+    }
+  },
+  "include": {
+    "I": "./tests/custom_steps/steps.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "reparam"
+}
