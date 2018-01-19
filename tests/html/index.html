@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    <script src="../../src/index.js"></script>
+    <script>
+      Frega.reparam({
+        linkId: 'should-work',
+        params: ['utm_source', 'utm_medium']
+      })
+    </script>
+</head>
+<body>
+<a href="other-page.html" id="should-work">This one should work</a>
+<a href="intermediary.html" id="intermediary">This one should NOT pass parameters along</a>
+</body>
+</html>

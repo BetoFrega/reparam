@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "http-server",
+    "test": "codeceptjs run"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
     "url": "https://github.com/robertofrega/reparam/issues"
   },
   "homepage": "https://github.com/robertofrega/reparam#readme",
-  "dependencies": {
+  "devDependencies": {
+    "codeceptjs": "^1.1.1",
     "codeceptjs-puppeteer": "^1.1.0",
     "standard": "^10.0.3"
   }
