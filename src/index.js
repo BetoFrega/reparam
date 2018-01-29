@@ -38,10 +38,8 @@ window.Frega.reparam = function (options) {
     var target = event.target
     var separator = ~target.href.indexOf('?') ? '&' : '?'
     var concatedParams = getSavedParams().map(function (param) {
-      console.log(param)
       return param.join('=')
     }).join('&')
-    console.log(concatedParams)
     if (target.id === options.linkId) {
       target.href = target.href + separator + concatedParams
     }
