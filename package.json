@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "serve": "http-server",
-    "test": "codeceptjs run"
+    "serve": "http-server -s",
+    "test": "npm run serve & codeceptjs run"
   },
   "repository": {
     "type": "git",
