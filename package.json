@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/robertofrega/reparam#readme",
   "devDependencies": {
-    "codeceptjs": "^1.1.1",
-    "codeceptjs-puppeteer": "^1.1.0",
+    "codeceptjs": "^2.0.8",
+    "codeceptjs-puppeteer": "^1.3.0",
     "standard": "^10.0.3"
   }
 }
